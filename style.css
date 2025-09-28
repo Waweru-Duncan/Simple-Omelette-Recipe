@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    margin-top: 70px;
+    margin-left: 400px;
+    background-color: hsl(330, 100%, 98%);
+    width: 500px;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.image img{
+    padding: 20px;
+    border-radius: 30px;
+    width: 470px;
+    
+}
+h1,h2{
+    font-family: Young Serif;
+    font-weight: 400;
+}
+p{
+    font-family: outfit;
+    font-weight: 200;
+}
+.prep{
+    font-family: outfit;
+    background-color:hsl(330, 53%, 94%);
+    border-radius: 15px;
+    padding: 10px;
+}
+.prep h3{
+    padding-left: 15px;
+    color: hsl(332, 51%, 32%);
+}
+span{
+    font-weight: bold;
+}
+.prep ul li{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.Ingredients{
+    font-family: outfit;
+}
+.Ingredients ul li{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+.Instructions{
+    font-family: outfit;
+}
+.Instructions ol li{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.Instructions ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.Nutrition span{
+    color: hsl(14, 45%, 36%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+
+}
+
